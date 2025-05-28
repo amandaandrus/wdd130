@@ -1,12 +1,17 @@
+:root {
+    --small-padding: 5px;
+    --large-padding: 20px;
+}
+
 nav {
     background-color: darkblue;
-    padding: 10px;
+    padding: var(--large-padding);
 }
 
 nav a {
     color: white;
     display: block;
-    padding: 20px;
+    padding: var(--small-padding);
 }
 
 h1 {
@@ -17,12 +22,12 @@ main img {
     width: 150px;
     height: auto;
     border: 1px solid black;
-    padding: 2px;
+    padding: var(--small-padding);
     box-shadow: 0 0 30px gray;
 }
 
 p {
-    padding: 0;
+    padding: var(--small-padding);
 }
 
 main {
@@ -33,7 +38,7 @@ aside {
     width: 20rem;
     margin: 1rem;
     border: 2px solid lightgreen;
-    padding: 1rem;
+    padding: var(--small-padding);
     background-color: darkcyan;
     color: lightgreen;
 }
