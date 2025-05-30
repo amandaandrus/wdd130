@@ -1,0 +1,55 @@
+:root {
+    --small-padding: 5px;
+    --large-padding: 20px;
+}
+
+nav {
+    background-color: darkblue;
+    padding: var(--large-padding);
+}
+
+nav a {
+    color: white;
+    display: block;
+    padding: var(--small-padding);
+}
+
+h1 {
+    color: darkblue;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid black;
+    padding: var(--small-padding);
+    box-shadow: 0 0 30px gray;
+}
+
+p {
+    padding: var(--small-padding);
+}
+
+main {
+    max-width: 840px;
+}
+
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 2px solid lightgreen;
+    padding: var(--small-padding);
+    background-color: darkcyan;
+    color: lightgreen;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
